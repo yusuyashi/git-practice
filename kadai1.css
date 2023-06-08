@@ -11,7 +11,10 @@
 
 .main {
   width: 960px;
-  margin: 50px auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
 }
 
@@ -23,12 +26,9 @@
   background-color: #eee;
 }
 
-.step-box:last-child {
-  margin-right: 0;
-}
-
 .step-img1 {
   height: 150px;
+  width: 280px;
   background-image: url(img/flow01.png);
   background-position: bottom;
   background-size: cover;
@@ -36,6 +36,7 @@
 
 .step-img2 {
   height: 150px;
+  width: 280px;
   background-image: url(img/flow02.png);
   background-position: bottom;
   background-size: cover;
@@ -43,6 +44,7 @@
 
 .step-img3 {
   height: 150px;
+  width: 280px;
   background-image: url(img/flow03.png);
   background-position: bottom;
   background-size: cover;
@@ -71,15 +73,17 @@
 
   .main {
   width: 100%;
-  margin: 50px auto;
+  margin-bottom: 30px;
   flex-wrap: wrap;
 }
   .step-box {
   width: 90%;
-  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
   padding: 10px;
-  position: relative;
   background-color: #eee;
 }
+
 
 }
